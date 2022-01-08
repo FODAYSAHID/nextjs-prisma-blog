@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Reac, {useState} from "react";
+import React, {useState} from "react";
 
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
     return(
 
         <>
-        <nav className="bg-blue-400">
+        <nav className="bg-gray-900">
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
@@ -23,7 +23,7 @@ const NavBar = () => {
                             href="#"
                             className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"
                             >
-                            <span className="font-bold text-white">MultiUser Blogging Platform</span>
+                            <span className="font-bold text-white text-3xl">Multi-user Blogging Platform</span>
                             </a>
                         </div>
                     </div>
@@ -31,15 +31,9 @@ const NavBar = () => {
                     <div className="hidden md:flex items-center space-x-1">
                     <a
                             href=""
-                            className="py-2 px-3 bg-blue-200 hover:bg-blue-100 hover:text-blue-500 rounded transition duration-300"
+                            className="py-2 px-3 bg-indigo-700 text-white hover:bg-blue-100 hover:text-blue-500 rounded transition duration-300"
                         >
                             Sign In
-                        </a>
-                        <a
-                            href=""
-                            className="py-2 px-3 bg-black text-white hover:bg-blue-100 hover:text-blue-500 rounded transition duration-300"
-                        >
-                            Get Started
                         </a>
                     </div>
 
