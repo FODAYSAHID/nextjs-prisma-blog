@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.3",
     "@prisma/client": "^3.7.0",
+    "@tailwindcss/forms": "^0.4.0",
     "metro4-dist": "^4.5.0",
     "next": "12.0.7",
     "react": "17.0.2",

@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 import { useDispatch } from 'react-redux'
 import {registerUser} from '../state/actions/auth';
 import React from 'react';
@@ -27,6 +28,7 @@ const Home: NextPage = () => {
       <NavBar/>
       <Hero/>
       <button className='p-2 m-5 bg-blue-400 rounded' onClick={btnClick}>Click ME</button>
+      <Footer/>
     </div>
   )
 }
