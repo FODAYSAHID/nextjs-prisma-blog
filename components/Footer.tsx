@@ -28,8 +28,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="py-16 flex flex-col justify-center items-center">
-                    <h3 className="text-center text-2xl">Multi-user Blogging Platform</h3>
-                    <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50 text-center">2022 Multi-user Blogging Platform. Handcrafted with ❤️ by Foday S.N Kamara.</p>
+                    <h3 className="text-center text-2xl">Multi-User Blogging Platform</h3>
+                    <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50 text-center">2022 Multi-User Blogging Platform. Handcrafted with ❤️ by Foday S.N Kamara.</p>
                 </div>
             </footer>
         </div>

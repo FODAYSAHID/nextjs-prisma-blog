@@ -23,7 +23,7 @@ const NavBar = () => {
                             <a
                             className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"
                             >
-                            <span className="font-bold text-white text-3xl">Multi-user Blogging Platform</span>
+                            <span className="font-bold text-white text-3xl">Multi-User Blogging Platform</span>
                             </a></Link>
                         </div>
                     </div>
